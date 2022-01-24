@@ -1,0 +1,54 @@
+body {
+    font-family: Arial;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 60px;
+}
+h2 {
+    margin-left: 20px;
+    font-size: 44px;
+}
+h3 {
+    font-size: 18px;
+}
+.head {
+    margin-left: 20px;
+    margin-top: -180px;
+    color: #FFF
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+ol {
+    font-size: 28px;
+}
+ol li {
+    margin: 10px auto;
+}
+a {
+    color: #000;
+}
+
+.head-image {
+    max-width: 754px;
+}
+
+.container {
+    max-width: 754px;
+    margin: 0 auto;
+}
+
+.intext-image {
+    max-width: 400px;
+    float: left;
+    margin-right: 20px;
+}
