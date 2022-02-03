@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+    <script type="text/javascript">
+        function showDateAndTime() {
+            element = document.getElementById('display')
+
+            element.innerHTML = (new Date()).toLocaleString("ru-RU")
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <div id="display"></div>
+    <a href="#" onclick="showDateAndTime();return false;">Показать дату и время</a>
+</div>
+</body>
+</html>
